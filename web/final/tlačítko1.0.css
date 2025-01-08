@@ -1,0 +1,12 @@
+.nav a{
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: aliceblue;
+    width: 200px;
+    height: 30px;
+    border: 5px solid #0589fd;
+    border-radius: 10px;
+    padding: 10px;
+
+}

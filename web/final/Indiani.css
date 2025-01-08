@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:#27282c url("skoda.png") no-repeat center;
+    margin-bottom: 230px;
+    background-size: 300px;
+}
+
+.nadpis {
+    color:#0589fd;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 72px;
+    background-color: #27282c;
+    text-align: center;
+    text-decoration: double;
+    
+}
+
+.nav a{
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #0589fd;
+    border: 5px solid #0589fd;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: aliceblue;
+    margin: 20px;
+    
+
+}
+.nav a:hover{
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #ffffff;
+    border: 5px solid #0589fd;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: rgb(255, 0, 0);
+
+}
+
+.tab{
+    background-color: #0589fd;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: aliceblue;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 150px;
+    
+}
+
+.info{
+    border: 5px solid rgb(255, 0, 0);
+    padding: 10px;
+    width: 400px;
+    border-radius: 10px;
+    text-align: unset;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: aliceblue;
+    margin-top: -10%;
+    margin-left: 70%;
+    
+    
+}
+
+.Historie{
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #0589fd;
+    border: 5px solid #0589fd;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: aliceblue;
+    margin: 20px;
+}
+
+.Historie:hover{
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #ffffff;
+    border: 5px solid #0589fd;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: rgb(255, 0, 0);
+    margin-top: -20%;
+}
+
+/*.obr{
+    margin-top:     40px;
+    margin-right:   30px;
+    margin-bottom:  50px;
+    margin-left:    10px;
+    size: 250px;
+
+info{border: rgb(255, 0, 0) solid 5px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: aliceblue;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 150px;}
+
+}*/
+/*.h2{
+    text-decoration: none;
+    width: fit-content;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: aliceblue;
+    border: 5px solid #0589fd;
+    border-radius: 10px;
+    padding: 10px;  
+}
+
+.obr{
+    
+}*/
+
+
+
