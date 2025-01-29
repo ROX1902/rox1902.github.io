@@ -12,6 +12,7 @@ body {
     background-color: #f4f4f4;
     color: #333;
     padding: 20px;
+    animation: fadeIn 2s ease-in-out;
 }
 
 /* Header styling */
@@ -20,6 +21,7 @@ header {
     color: #fff;
     padding: 10px 0;
     text-align: center;
+    animation: slideDown 1s ease-in-out;
 }
 
 header h1 {
@@ -54,6 +56,7 @@ main {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 2s ease-in-out;
 }
 
 /* Footer styling */
@@ -66,4 +69,60 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+    animation: slideUp 1s ease-in-out;
+}
+
+/* Keyframes for animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideDown {
+    from { transform: translateY(-100%); }
+    to { transform: translateY(0); }
+}
+
+@keyframes slideUp {
+    from { transform: translateY(100%); }
+    to { transform: translateY(0); }
+}
+/* Add this at the end of your existing CSS */
+
+/* Back-to-top button styling */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-to-top.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Scroll progress bar styling */
+.progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 5px;
+    background: #333;
+    width: 0;
+    z-index: 1000;
+    transition: width 0.25s;
 }
